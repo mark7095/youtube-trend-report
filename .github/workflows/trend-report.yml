@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests pandas openai
+        run: pip install requests pandas openai openpyxl
 
       - name: Run trend script
         run: python youtube_trend_channel_generator.py
